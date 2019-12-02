@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>fem</title>
+</head>
+<body>
+    <script>
+        
+        const skurker = [
+          {navn: "Billy the Kid", egenskap: "Rask på avtrekkeren"},
+          {navn: "Jesse James", egenskap: "Iskald"},
+          {navn: "Brødrene Dalton", egenskap: "Jobber godt sammen"}
+        ]
+        const finnNavn = skurker.find ( dittNavn => dittNavn.navn === "Jesse James");
+        const finnEgenskap = finnNavn.egenskap;
+        console.log(finnEgenskap);
+    </script>
+</body>
+</html>

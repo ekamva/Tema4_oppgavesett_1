@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>tre</title>
+</head>
+<body>
+    <script>
+        const minList = [22, 5, 43, 7, 32, 94, 81, 26, 8, 74];
+
+        let finnUt = minList.filter( tall => tall>= 20 && tall <= 80 );
+                
+        if (finnUt.length === minList.length){
+            console.log("Oi! Alle tallene var mellom 20 og 80: "+ finnUt);
+        }else if (finnUt.length < minList.length && finnUt.length != 0){
+            console.log("Disse tallene er mellom 20 og 80: "+ finnUt);
+        }else{
+            console.log("Oi! Ingen tall mellom 20 og 80?");
+        }
+        
+        
+    </script>
+</body>
+</html>
